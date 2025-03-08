@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+nav {
+    border-bottom: 1px solid black;
+    background-color: azure;
+}
+
+nav ol {
+    margin-top: 0;
+}
+
+nav ol li {
+    margin-top: 1%;
+}
+
+nav ol li a {
+    padding: 10% 0;
+    background-color: lightgrey;
+    color: black;
+    text-decoration: none;
+}
+
+nav ol li a:hover {
+    background-color: lightskyblue;
+}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+.crumb::after {
+    margin: 0 10px;
+    content: "|";
+}
+
+main {
+    margin: 0 5%;
+}
